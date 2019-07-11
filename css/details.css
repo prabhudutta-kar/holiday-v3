@@ -1,0 +1,343 @@
+/*--------- Details Page CSS ---------*/
+
+@import url('https://fonts.googleapis.com/css?family=Lobster|Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cookie|Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+      background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.8)), url(../img/hotel-1.jpg);
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+}
+
+.container{
+  max-width: 100% !important;
+  padding:25px 5px 25px 5px!important;
+}
+
+.responsive{
+  display: inline-flex!important;
+}
+
+.navbar {
+  background: #141E30;  
+   background: -webkit-linear-gradient(to top, #243B55, #141E30); 
+   background: linear-gradient(to top, #243B55, #141E30); 
+   box-sizing: border-box;
+   overflow: visible;
+}
+
+.navbar .container{
+max-width: 100% !important;
+padding:0px 25px 0px 25px!important;
+display: flex!important;
+}
+
+.navbar-brand {
+   color: white !important;  
+   font-family: 'Lobster', cursive;
+}
+
+.navbar-nav .nav-link{
+   color: white !important;
+   font-family: 'Poppins', sans-serif;
+}
+
+.navbar-nav .nav-link:hover {
+   color: rgb(243,188,19) !important;
+}
+
+.navbar-light .navbar-toggler-icon {
+   filter: invert(100%);
+}
+
+.dropdown-menu {
+   font-family: 'Poppins', sans-serif;
+}
+
+.dropdown-menu a:hover{
+   background-color: rgb(0,35,71)!important;
+   color: #e2a10a!important;
+}
+
+/* -----Image Carousel----- */
+
+.bd-example{
+  margin-top: 18px!important;
+  padding: 0px 13px 0px 13px !important;
+}
+
+.carousel{
+  border: 2px solid rgb(200,200,200)!important;
+  border-radius: 2px!important;
+}
+
+/* -----Card details----- */
+.details-card{
+    margin-top: 0px;
+    padding-right: 15px!important;
+  }
+  
+  .details-card .breadcrumb{
+        background: #141E30;  
+        background: -webkit-linear-gradient(to top, #243B55, #141E30); 
+        background: linear-gradient(to top, #243B55, #141E30);
+        border: 1px solid rgb(0,35,71)!important;
+        border-radius: 0px!important;
+        width: 100%!important;
+        margin-top: 20px!important;
+        margin-bottom: 0px!important;
+        padding: 0px 16px 10px 16px!important;
+        
+  }
+  
+  .details-card .breadcrumb li{
+    margin: 0 auto!important;
+    font-size: 26px!important;
+    letter-spacing: 2px!important;
+    font-family: 'Poppins', sans-serif;
+    text-align: center!important;
+    background-image: -webkit-linear-gradient(to top, #000, #fff)!important;
+     background-image: linear-gradient(to top, #000, #fff)!important;
+     color:rgba(255,255,255,0.8)!important;
+     -webkit-background-clip: text!important;
+     background-clip: text!important; 
+     text-shadow:-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,1px 1px 0 #000;
+  }
+
+  hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255,255,255,0.8), rgba(0, 0, 0, 0));
+    margin-top: 0!important;
+    margin-bottom: 0!important;
+}
+  
+  .details-card .card{
+          background-color: rgba(255,255,255,0.8) !important;
+           margin-top: 0px!important;
+           margin-left: 0px!important;
+           border-radius: 0px!important;
+           padding-top: 15px!important;
+           padding-bottom: 15px!important;
+           padding-left: 15px!important;
+           padding-right: 15px!important;
+  }
+  
+  .details-card .card .card-body{
+    padding: 0px!important;
+  }
+  
+  .details-card .card .card-body1{
+    padding: 0px!important;
+  }
+  
+  .details-card .card .card-body2{
+    padding: 0px!important;
+    display: inline-flex!important;
+  }
+  
+  .details-card .card .card-body h5{
+    height: 40px!important;
+    padding: 10px 10px 10px 25px!important;
+    font-size: 17px!important;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0,35,71)!important;
+  }
+  
+  .details-card .card .card-title{
+    background-color: rgb(233, 236, 239)!important;
+    border: 2px solid rgb(192,192,192)!important;
+    border-radius: 25px!important;
+    margin-bottom: 5px!important;
+    text-align: center!important;
+  }
+  
+  .details-card .card .card-title1{
+    background-color: rgb(233, 236, 239)!important;
+    border: 2px solid rgb(192,192,192)!important;
+    border-radius: 25px!important;
+    margin-bottom: 5px!important;
+    padding: 0px!important; 
+    height: 45px!important;
+  }
+  
+  .details-card .card .card-title2{
+    background-color: rgb(233, 236, 239)!important;
+    border: 2px solid rgb(192,192,192)!important;
+    border-radius: 25px!important;
+    margin-bottom: 5px!important;
+    margin-right: 1px!important;
+    padding: 0px!important; 
+    height: 100%px!important;
+  }
+  
+  .details-card .card .card-title3{
+    background-color: rgb(233, 236, 239)!important;
+    border: 2px solid rgb(192,192,192)!important;
+    border-radius: 25px!important;
+    margin-bottom: 5px!important;
+    margin-left: 1px!important;
+    padding: 0px!important; 
+    height: 128px!important;
+    float: right!important;
+  }
+  
+  .price{
+    font-size: 23px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px!important;
+    padding-top: 0px!important;
+    padding-bottom: 0px!important;
+    text-align: center!important;
+    color: rgb(33,37,41)!important;
+  }
+  
+  .description{
+    padding: 10px 10px 0px 10px!important;
+    margin-bottom: 5px!important;
+    font-size: 15px!important;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0,35,71)!important;
+    text-align: center!important;
+  }
+  
+  .description1{
+    padding: 10px 10px 5px 10px!important;
+    margin-bottom: 5px!important;
+    font-size: 15px!important;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0,35,71)!important;
+    text-align: center!important;
+  }
+  
+  .description2{
+    padding: 5px 10px 5px 10px!important;
+    margin-bottom: 5px!important;
+    font-size: 20px!important;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0,35,71)!important;
+    text-align: center!important;
+  }
+  
+  .card-body2 .card-title2 hr{
+    margin: 0!important;
+    padding-top: 0!important;
+    color: rgb(128,128,128)!important;
+  }
+  
+  .details-card .button .breadcrumb{
+    background: #141E30;  
+    background: -webkit-linear-gradient(to bottom, #243B55, #141E30); 
+    background: linear-gradient(to bottom, #243B55, #141E30);
+    border: 1px solid rgb(0,35,71)!important;
+    border-radius: 0px!important;
+    width: 100%!important;
+    margin-top: 0px!important;
+    margin-bottom: 0px!important;
+    padding-top: 10px!important;
+  }
+  
+  .details-card .button  .btn-primary{
+    width: 50%!important;
+    margin: 0 auto!important;
+    font-size: 20px!important;
+    font-family: 'Cinzel', serif;
+    border-color: #e2a10a!important;
+    color: #e2a10a!important;
+    background-color: transparent!important;
+    border-radius: 30px!important;
+    letter-spacing: 2px!important;
+  }
+  
+  .details-card .button .btn-primary:hover{
+    box-sizing: border-box!important;
+    box-shadow: 3px 2px 3px #000!important;
+    text-shadow: 3px 1px 4px #000!important;
+  }
+  
+  /* ---------Tour Details--------- */
+  
+  .details-card1{
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+  
+  .details-card1 .breadcrumb{
+        background: #141E30;  
+        background: -webkit-linear-gradient(to top, #243B55, #141E30); 
+        background: linear-gradient(to top, #243B55, #141E30);
+        border: 1px solid rgb(0,35,71)!important;
+        border-radius: 0px!important;
+        width: 100%!important;
+        margin-top: 0px!important;
+        margin-bottom: 0px!important;
+        padding: 0px 16px 10px 16px!important;
+  }
+  
+  .details-card1 .breadcrumb li{
+    margin: 0 auto!important;
+    font-size: 26px!important;
+    letter-spacing: 2px!important;
+    font-family: 'Poppins', sans-serif;
+    text-align: center!important;
+    background-image: -webkit-linear-gradient(to top, #000, #fff)!important;
+     background-image: linear-gradient(to top, #000, #fff)!important;
+     color:rgba(255,255,255,0.8)!important;
+     -webkit-background-clip: text!important;
+     background-clip: text!important; 
+     text-shadow:-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,1px 1px 0 #000;
+  }
+  
+  .details-card1 .card{
+    border-radius: 0px!important;
+    margin-left: 0px!important;
+    background-color: rgba(255,255,255,0.8) !important;
+  }
+  
+  .details-card1 .card a{
+    color: rgb(3,43,66)!important;
+    border: 1px solid rgba(3,43,66,0.5)!important;
+    margin-right: 5px!important;
+  }
+
+  .details-card1 .card a:hover{
+    color: #e2a10a!important;
+    background: rgba(20, 30, 48,0.6);
+  }
+
+  .details-card1 .card a:focus{
+    color: #e2a10a!important;
+    background: #141E30;  
+    background: -webkit-linear-gradient(to bottom, #243B55, #141E30); 
+    background: linear-gradient(to bottom, #243B55, #141E30);
+  }
+
+  #card-title{
+    background-color: rgb(233, 236, 239)!important;
+    border: 2px solid rgb(190,190,190)!important;
+    border-radius: 25px!important;
+    margin-bottom: 5px!important;
+    height: 40px!important;
+    text-align: center!important;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px!important;
+  }
+
+  @media only screen and (max-width: 600px) {
+   .responsive {
+      display: block!important;
+    }
+  }
+  
